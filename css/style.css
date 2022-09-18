@@ -1,0 +1,171 @@
+/* Start Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    color: #323232;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 1rem; 
+}
+
+nav > ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav > ul li a {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #0099ff;
+}
+
+table {
+    margin: auto;
+}
+
+th, td, tr     {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th {
+    color: #0099ff;
+    padding: 10px 0px;
+}
+td {
+    padding: 10px 20px;
+}
+ul, li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+
+input, select {
+    outline: none;
+    height: 30px;;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* End Reset */
+
+header {
+    background-color: #0099ff;
+    padding: 20px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+    padding: 30px 50px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.actions > li {
+    padding: 0px 5px;
+}
+
+.form-container {
+    position: absolute;
+    background-color: #e9e9e998;
+    padding: 30px;
+    border-radius: 3px;
+    width: 380px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container > h3{
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-link a {
+    color: #0099ff;
+    font-size: 0.9rem;
+}
+
+.btn {
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 0px 10px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0099ff;
+}
+
+.btn-primary:hover {
+    background-color: #0a83d4;
+}
+
+.user-details {
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
